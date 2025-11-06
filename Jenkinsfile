@@ -10,7 +10,7 @@ pipeline {
 
     stages{
 
-        stages("clone Repo") {
+        stages('clone Repo') {
              step{
             git branch:'main', url: 
             'https://github.com/Rashid-nissar/CI-CD-pipeline-using-Jenkins-github-wbhook-Ubuntu-AWS-EC2-Docker.git' 
