@@ -44,9 +44,9 @@ pipeline {
 
         steps {
            emailtext(
-            subject:"NestJS App Deployed Successfully on Ec2!"
+            subject:"NestJS App Deployed Successfully on Ec2!",
             body: "your nestjs is deployed
-            http://13.203.217.108:${PORT}/"
+            http://13.203.217.108:${PORT}/",
             to:"${EMAIL}"
            )
 
